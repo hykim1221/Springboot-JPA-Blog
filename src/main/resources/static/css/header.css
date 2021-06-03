@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html { overflow-y:scroll; }
+
+.container {
+	
+}
+
+.index--title {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.index--title-text {
+	border-right: 5px solid #D9AFFF;
+	float: left;
+	font-weight: 900;
+	font-size: 40px;
+	color: #BC55EF;
+	padding-right: 20px;
+}
+
+.index--write {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.index--write a {
+	background-color: #C65FF9;
+	padding: 10px 20px;
+	color: white !important;
+	font-weight: 900;
+	font-size: 18px;
+	float: right;
+}
+
+.index--write a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.index--write-u {
+	margin-right: 20px;
+	
+}
+
+.index--write-d {
+	padding: 9px 19px !important;
+}
+
+.header--container {
+	display: block;
+	height: 170px;
+	border-bottom: 30px solid #C65FF9;
+}
+
+.header--login {
+	display: block;
+	width: 90%;
+	height: 100px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.header--title img {
+	width: 220px;
+	height: 110px;
+	margin-top: 20px;
+	margin-left: 500px;
+}
+
+.header--login ul {
+	list-style: none;
+}
+
+.header--login ul li {
+	position: relative;
+	margin-right: 50px;
+	float: left;
+}
+
+.header--login-info {
+	width: 450px;
+	text-align: right;
+	color : #BC55EF;
+	padding-right: 70px;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.header--login-info a {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.header--login-block1 {
+	display: inline-block;
+	width: 70%;
+	text-align: center;
+}
+
+.header--login-block2 {
+	display: inline-block;
+	position: relative;
+	left: 100px;
+	width: 29%;
+	height: 50px;
+}
+
+
+.header--login-text-1 {
+	background-color: #BC55EF;
+	border: none;
+	width: 150px;
+	height: 35px;
+}
+.header--login-text-1 a {
+	color: white;
+	font-weight: 600;
+	padding: 5% 26%;
+}
+
+.header--login-text-1 a:hover {
+	text-decoration: none;	
+}
+
+.header--login-text-2 {
+	background-color: white;
+	border: 1px solid #BC55EF;
+	width: 150px;
+	height: 35px;
+}
+.header--login-text-2 a {
+	color: #BC55EF;
+	font-weight: 600;
+	padding: 5% 26%;
+}
+
+.header--login-text-2 a:hover {
+	text-decoration: none;		
+}
